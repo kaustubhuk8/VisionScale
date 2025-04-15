@@ -1,0 +1,7 @@
+opencv-python
+imutils
+facenet-pytorch
+torch
+boto3
+Pillow
+numpy
