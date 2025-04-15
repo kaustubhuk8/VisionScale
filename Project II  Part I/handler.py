@@ -78,8 +78,8 @@ def handler( event, context):
 #     key = urllib.parse.unquote_plus(event['Records'][0]['s3']['object']['key'], encoding='utf-8')
 
 #     s3_client = boto3.client('s3',region_name="us-east-1",
-#     aws_access_key_id="REMOVED_KEY",
-#     aws_secret_access_key="REMOVED_SECRET")
+#     aws_access_key_id="ADD YOUR ACCESS KEY ID",
+#     aws_secret_access_key="ADD YOUR SECRET KEY")
 
 #     s3_client.download_file(bucket, key, f'/tmp/{key}')
 #     print('Downloaded: ', key)
@@ -96,8 +96,8 @@ def handler( event, context):
 #     output = stream.read()
 
 #     s3 = boto3.resource("s3",region_name="us-east-1",
-#         aws_access_key_id="REMOVED_KEY",
-#         aws_secret_access_key="REMOVED_SECRET")
+#         aws_access_key_id="ADD YOUR ACCESS KEY ID",
+#         aws_secret_access_key="ADD YOUR SECRET KEY")
 
 #     for root, dir, files in os.walk(outdir):
 #         if root == f'/tmp/{os.path.splitext(key)[0]}':
