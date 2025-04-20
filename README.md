@@ -109,20 +109,3 @@ Before running any part of the code, you must:
 4. Deploy to AWS Lambda using the provided Dockerfile and handler.py.
 
 ---
-
-## Notes
-- **All AWS credentials, bucket names, and queue URLs are placeholders.** You must configure these before running the code.
-- Never commit real credentials to version control. For best security practices, use environment variables or IAM roles.
-- The code is structured for educational purposes and may require adaptation for production use.
-- See the PDF files in each folder for detailed project descriptions, requirements, and architecture diagrams.
-
----
-
-## License
-Copyright 2024, VISA Lab
-MIT License
-
----
-
-## Contact
-For questions, please refer to the project PDFs or contact the course instructor.
